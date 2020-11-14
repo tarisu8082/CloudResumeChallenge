@@ -1,5 +1,5 @@
 /*!
-    * Start Bootstrap - Resume v6.0.2 (https://startbootstrap.com/theme/resume)
+    * Start Bootstrap - Resume v6.0.1 (https://startbootstrap.com/template-overviews/resume)
     * Copyright 2013-2020 Start Bootstrap
     * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-resume/blob/master/LICENSE)
     */
@@ -39,4 +39,19 @@
     $("body").scrollspy({
         target: "#sideNav",
     });
+
+    $('#myBtn').click(function () {
+		$("html, body").animate({
+			scrollTop: 0
+		}, 1000);
+		return false;
+    });
+    
+    $(window).scroll(function () {
+		if ($(this).scrollTop() > 20) {
+			$('#myBtn').fadeIn();
+		} else {
+			$('#myBtn').fadeOut();
+		}
+	});
 })(jQuery); // End of use strict
