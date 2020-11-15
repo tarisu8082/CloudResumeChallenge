@@ -33,7 +33,7 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#sideprojects">Side Projects</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#certifications">Certifications</a></li>
                     <li class="nav-item">
                         <small class="nav-link justify-content-center align-items-center">
@@ -179,49 +179,59 @@
                 </div>
             </section>
             <hr class="m-0" />
-            <!-- Side Projects-->
-            <section class="resume-section" id="sideprojects">
+            <!-- Projects-->
+            <section class="resume-section" id="projects">
                 <div class="resume-section-content">
-                    <h2 class="mb-5"><i class="far fa-star"></i> Side Projects</h2>
-                    <h3 class="mb-0">Cloud Resume Challenge</h3>
-                    <div class="subheading mb-3">A cloud project to advance my career.</div>
-                    <p>Building a website from the ground up with a Html, css, custom domain, HTTPs Security, Cloud Front, S3, policies,
-                        DynamoDB database, API Gateway, Lambda Functions triggered through APIGW written in Python, 
-                        all packaged into a SAM template only utilizing Amazon's wide variety of Cloud services.
-                        Integrated with GitHub Actions to make continuous integration and deployment, or CI/CD.</p>
-                    <p class="mb-0"> </p>
-                    <p class="mb-0">Challenge Link: <a href="https://cloudresumechallenge.dev" target="_blank">Cloud Resume Challenge</a> </p>
-                    <p class="mb-0">GitHub Frontend Link: <a href="https://github.com/SudhaChandranBC/resume" target="_blank">Frontend Resume</a> </p>
-                    <p class="mb-0">GitHub Backend Link: <a href="https://github.com/SudhaChandranBC/resume-backend" target="_blank">Backend SAM</a></p>
-                    <p class="mb-0">Here is my blog post regarding this project: <a href="https://dev.to/sudhachandranbc/my-journey-of-cloud-resume-challenge-k51" target="_blank">My Journey of Cloud Resume Challenge</a> </p>
-                    <div class="subheading mb-3"></div>
-
-                    <h3 class="mb-0">DevOpsGirls.com</h3>
-                    <div class="subheading mb-3">Blue Green Deployment Capstone Project with Great Learning</div>
-                    <p>Building a website from the ground up with a Html, css, custom domain, HTTPs Security with Certificate Manager, Route 53, Cloud Front, S3, policies, STS, API Gateway.
-                        A Covid report created using QuickSight with data from AWS Data Exchange saved and processed with Glue Crawler and Glue Data Catalog.
-                        Lambda Functions triggered through APIGW written in Python, where source saved in CodeCommit and 
-                        containerised as docker images stored in ECR utilizing Amazon's wide variety of Cloud services.
-                        Also a management dashboard has been created using cloudwatch data with Grafana tool.
-                        The whole project is integrated with Blue Green deployment with CodeDeploy, CodeBuild, CodePipeline to make continuous integration and deployment.</p>
-                    <p class="mb-0"> </p>
-                    <p class="mb-0">Project Link: <a href="https://DevOpsGirls.com" target="_blank">DevOpsGirls.com</a> </p>
-                    <p class="mb-0">GitHub Link: <a href="https://github.com/SudhaChandranBC/pgpcc-capstone-covid" target="_blank">Capstone Project</a> </p>
-                    <p class="mb-0">Here is my blog post regarding this project: <a href="https://devopsgirls.com/project.html" target="_blank">About Project</a> </p>
-
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Certifications-->
-            <section class="resume-section" id="certifications">
-                <div class="resume-section-content">
-                    <h2 class="mb-5"><i class="fas fa-award"></i>&nbsp;&nbsp;&nbsp;Certifications</h2>
-                    <div class="row"> 
-                        <div class="column">
-                          <a href="https://www.youracclaim.com/badges/2b2fa3ca-2b73-4595-a098-c77d70cedda6/public_url" target="_blank"><img class="mb-3" src="assets/img/SAA.png" style="width:100%"></a>
+                    <h2 class="mb-5"><i class="fas fa-laptop-code"></i>&nbsp;&nbsp;&nbsp;Projects</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Cloud Portfolio/Resume</h3>
+                            <div class="subheading mb-3">AWS Lambda, Amazon RDS, CloudWatch Event, AWS CloudFormation</div>
+                            <p>
+                                <li>Used S3 to deploy a static website and Cloudfront to securely deliver the data globally with low latency</li>
+                                <li>Registered a domain with GoDaddy and create a public hosted zone in Route 53 to route the requests 	to Cloudfront</li>
+                                <li>Managed DynamoDB, Lambda and API Gateway to store, update and retrieve visitor counter</li>
+                                <li>Addressed infrastructure as code using AWS SAM and set up CI/CD pipeline using GitHub actions</li>
+                            </p>
                         </div>
+                        <div class="flex-shrink-0"><span class="text-primary">October 2020</span></div>
                     </div>
-                                             
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Cloud Portfolio/Resume</h3>
+                            <div class="subheading mb-3">Amazon S3, Amazon Route53, AWS API Gateway, Amazon CloudFront</div>
+                            <p>
+                                <li>Used S3 to deploy a static website and CloudFront to implement HTTPS and OAI</li>
+                                <li>Created a public hosted zone in Route53 to route the requests to CloudFront distribution</li>
+                                <li>Managed DynamoDB, Lambda and API Gateway to store, update and retrieve visitor counter</li>
+                                <li>Addressed infrastructure as code using AWS SAM and set up CI/CD pipeline using GitHub actions</li>
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2020</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Sentiment Analysis in Twitter with Kinesis, Lambda, Comprehend and Elasticsearch</h3>
+                            <div class="subheading mb-3">Kinesis, Lambda, Comprehend, Elasticsearchservice</div>
+                            <p>
+                                <li>Extracted real-time data from Twitter using a python script running on EC2 with the help of libraries Tweepy and Boto3</li>
+                                <li>Used Kinesis Firehose delivery stream to capture the streaming data and AWS Lambda to call the Comprehend service for generating the sentiment information</li>
+                                <li>Loaded the transformed data into Elastic Search Cluster and visualized it using Kibana</li                                
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">May 2020</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Exploring AWS spot instances using Kubernetes clusters</h3>
+                            <div class="subheading mb-3">Elastic Kubernetes Service, Kubectl, AWS CLI</div>
+                            <p>
+                                <li>Designed a controller which constantly looks to spin up more economical spot instances inside of a Kubernetes cluster to reduce the cost of computing (by 40%) while maintaining the SLA (99 % uptime)</li>
+                                <li>Integrated a re-scheduler and a spot-interrupt-handler to distribute the load gracefully and deployed a metrics scraping operatorto monitor the cluster and application </li>
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Mar 2020</span></div>
+                    </div>   
                 </div>
             </section>
         </div>
