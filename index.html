@@ -34,7 +34,7 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#sideprojects">Side Projects</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#certifications">Certifications</a></li>
                     <li class="nav-item">
                         <small class="nav-link justify-content-center align-items-center">
                             <span data-toggle="tooltip" data-placement="bottom"><i class="fas fa-eye"></i>
@@ -178,46 +178,115 @@
                     </ul>
                 </div>
             </section>
-            <!-- Awards-->
-            <section class="resume-section" id="awards">
+            <hr class="m-0" />
+            <!-- Projects-->
+            <section class="resume-section" id="projects">
                 <div class="resume-section-content">
-                    <h2 class="mb-5"><i class="fas fa-award"></i>  Awards & Certifications</h2>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            AZ-900 | Microsoft Azure Fundamentals | August 2020
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Aviatrix | Aviatrix Certified Engineer - Multi-Cloud Network Associate | September 2020
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Best Entertainment App | Bookids by Nickelodeon | Appetition and digital life award France | 2019
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Best Rated App | Most Improved App | Rakuten PointCard | Rakuten Internal Award | 2016
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Best Development Project | Rakuten PointCard SDK | Rakuten Internal Award | 2015
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Best Knowledge Base article | FOX SDK | Rakuten Internal Award | 2015
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Golden Team | Lead | Xsysys Internal Award | 2012
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Cloud Certifications:
-                        </li>
-                    </ul>
-                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="182d8378-2366-46bc-887a-c0131ce02b2e" data-share-badge-host="https://www.youracclaim.com"></div><script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
-                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="9bdaf8c1-d462-46ce-a1d5-d35f442b9b67" data-share-badge-host="https://www.youracclaim.com"></div><script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
+                    <h2 class="mb-5"><i class="fas fa-laptop-code"></i>&nbsp;&nbsp;&nbsp;Projects</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Event-Driven Python on AWS</h3>
+                            <div class="subheading mb-3">AWS Lambda, Amazon RDS, CloudWatch Event, AWS CloudFormation</div>
+                            <p>
+                                <li>Performed data manipulation using Lambda function and load data into RDS PostgreSQL database</li>
+                                <li>Configured once-daily CloudWatch event rule to trigger Lambda function and notify using SNS</li>
+                                <li>Created YAML file to launch this infrastructure using CloudFormation</li>
+                                <li>Designed CI/CD pipeline using GitHub actions and visualized data using QuickSight</li>
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">September 2020</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Cloud Portfolio/Resume</h3>
+                            <div class="subheading mb-3">Amazon S3, Amazon Route53, AWS API Gateway, Amazon CloudFront</div>
+                            <p>
+                                <li>Used S3 to deploy a static website and CloudFront to implement HTTPS and OAI</li>
+                                <li>Created a public hosted zone in Route53 to route the requests to CloudFront distribution</li>
+                                <li>Managed DynamoDB, Lambda and API Gateway to store, update and retrieve visitor counter</li>
+                                <li>Addressed infrastructure as code using AWS SAM and set up CI/CD pipeline using GitHub actions</li>
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2020</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">AWS Theme Park - Serverless Web Application</h3>
+                            <div class="subheading mb-3">AWS Amplify, AWS SAM, Amazon QuickSight, AWS Lambda</div>
+                            <p>
+                                <li>Configured Amplify to publish the web app and deployed the backend infrastructure using SAM.</li>
+                                <li>Populated a DynamoDB table containing ride and attraction information for the park.</li>
+                                <li>Launched Amazon Kinesis Firehose delivery stream to ingest data of park visitors and designed QuickSight to perform business intelligence analytics.</li>
+                                <li>Introduced Amazon EventBridge, CloudWatch and SNS to notify ride system outages.</li>
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">July 2020</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Hybrid Directory and Migration</h3>
+                            <div class="subheading mb-3">AWS Directory Service, AWS Workspaces, AWS FSx, VPC Peering</div>
+                            <p>
+                                <li>Simulated On-premises environment in AWS which had windows server running as Domain Controllers (Self Managed On-premises Active Directory), file server and simulated client desktop.</li>
+                                <li>Created AWS VPC with a VPC peer between AWS and simulated On-premises to simulate a VPN/DX.</li>
+                                <li>Set up AWS managed Microsoft AD and built two way forest trust between AWS and On-premises.</li>
+                                <li>Launched AWS FSx and explored DFS Namespaces.</li>
+                                <li>Completed migration by launching AWS Workspaces and granted access to an On-premises identity.</li>
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">June 2020</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Ship Detection in Satellite Image</h3>
+                            <div class="subheading mb-3">Tensorflow, Scikit-learn, CNN, SVM, Pandas, Matplotlib, Python</div>
+                            <p>
+                                <li>Executed feature extraction using Histogram of Oriented Gradients (HOG) technique.</li>
+                                <li>Designed and developed model using 3 different algorithms CNN, VGG16 and SVM.</li>
+                                <li>Analyzed and optimized machine learning models using hyper parameter tuning with 100% recall.</li>
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">April 2020</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">SMS Spam/Ham Classification</h3>
+                            <div class="subheading mb-3">Tensorflow, RNN, KNN, SVM, Matplotlib, Python</div>
+                            <p>
+                                <li>Identified frequent words in Spam/Ham message, implemented tokenizer to tokenize data and converted into same length sequence.</li>
+                                <li>Applied 3 machine learning models Recurrent Neural Network, K-Nearest Neighbor and SVM.</li>
+                                <li>Achieved better results and applied hyper parameter tuning using GridSearchCV.</li>
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">December 2019</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Lung Cancer Detection</h3>
+                            <div class="subheading mb-3">SVM, Matplotlib, Python, MATLAB</div>
+                            <p>
+                                <li>Converted images into grayscale format and performed dimensionality reduction.</li>
+                                <li>Preprocessed dataset by various techniques like thresholding, filtering, masking and segmentation.</li>
+                                <li>Developed model using Support Vector Machine algorithm and classified images into 2 category.</li>
+                                <li>Secured 2nd rank in Project Exhibition.</li>
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">May 2019</span></div>
+                    </div>
+                    
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Certifications-->
+            <section class="resume-section" id="certifications">
+                <div class="resume-section-content">
+                    <h2 class="mb-5"><i class="fas fa-award"></i>&nbsp;&nbsp;&nbsp;Certifications</h2>
+                    <div class="row"> 
+                        <div class="column">
+                          <a href="https://www.youracclaim.com/badges/2b2fa3ca-2b73-4595-a098-c77d70cedda6/public_url" target="_blank"><img class="mb-3" src="assets/img/SAA.png" style="width:100%"></a>
+                        </div>
+                    </div>
+                                             
                 </div>
             </section>
         </div>
